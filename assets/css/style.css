@@ -144,3 +144,19 @@ h3{
 .ms-btn{
     background-color: #1ABC9C;
 }
+
+.fa-star{
+    font-size: 2rem;
+}
+
+.line-star-light{
+    width: 170px;
+    height: 4px;
+    background-color: #FFFFFF;
+}
+
+.line-star-dark{
+    width: 170px;
+    height: 4px;
+    background-color: #2C3E50;
+}
