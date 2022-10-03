@@ -1,4 +1,7 @@
 /* ----------------GENERAL---------------- */
+body{
+    overflow-x: hidden;
+}
 
 /* ----------------UTILITY---------------- */
 .debug{
@@ -12,6 +15,15 @@
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.fa-star{
+    font-size: 2rem;
+}
+
+.line-star{
+    width: 150px;
+    height: 4px;
 }
 
 /* ---------------COMPONENTS--------------- */
@@ -40,46 +52,25 @@ header{
 .jumbotron .image{
     height: 225px;
     width: 225px;
-    background-color: #2C3E50;
-    border-radius: 50%;
     margin: 0 auto;
-    margin-top: 65px;
-    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: #2C3E50;
 }
 
 .ms-form-msg{
     height: 195px;
-    border-bottom: 2px solid #CCCCCC;
     line-height: 55px;
-}
-
-.fa-star{
-    font-size: 2rem;
-}
-
-.line-star-light{
-    width: 170px;
-    height: 4px;
-    background-color: #FFFFFF;
-}
-
-.line-star-dark{
-    width: 170px;
-    height: 4px;
-    background-color: #2C3E50;
+    border-bottom: 2px solid #CCCCCC;
 }
 
 /* -----------------FOOTER----------------- */
-
+/* no content */
 
 /* ---------------PALETTE--------------- */
-.jumbotron{
+.jumbotron, .about{
     background-color: #1ABC9C;
 }
 
-.about{
-    background-color: #1ABC9C;
-}
 
 .f-top{
     background-color: #3A546D;
@@ -115,4 +106,12 @@ header{
 
 .ms-btn{
     background-color: #1ABC9C;
+}
+
+.light{
+    background-color: #FFFFFF;
+}
+
+.dark{
+    background-color: #2C3E50;
 }
