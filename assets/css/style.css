@@ -2,49 +2,141 @@
 
 /* ----------------UTILITY---------------- */
 .debug{
-    background-color: rgba(255, 0, 0, .25);
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid black;
 }
 
-/* ---------------COMPONENTS--------------- */
-[class^="col"]{
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid black;
+.ms-height-90{
     height: 90px;
 }
 
-.jumbotron{
-    height: 590px;
-    background-color: #1ABC9C;
+.ms-white{
+    color: #FFFFFF;
+}
+
+/* ---------------COMPONENTS--------------- */
+.ms-container-60{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.ms-container-50{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ms-form{
+    height: 55px;
+    border-bottom: 2px solid #CCCCCC;
+    line-height: 55px;
+}
+
+.card{
+    height: 260px;
+    border-radius: 15px;
+    color: gold;
+}
+
+.circle{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin: 5px;
 }
 
 /* -----------------HEADER----------------- */
 header{
     background-color: #2C3E50;
     height: 90px;
+    line-height: 90px;
 }
 
 /* ------------------MAIN------------------ */
+.jumbotron{
+    padding-bottom: 70px;
+    background-color: #1ABC9C;
+}
+
+.jumbotron .image{
+    height: 225px;
+    width: 225px;
+    background-color: #2C3E50;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
 .portfolio{
-    height: 855px;
+    padding-top: 90px;
 }
 
 .about{
-    height: 490px;
+    padding-top: 90px;
+    padding-bottom: 55px;
     background-color: #1ABC9C;
 }
 
 .contact-me{
-    height: 685px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.ms-form-msg{
+    height: 195px;
+    border-bottom: 2px solid #CCCCCC;
+    line-height: 55px;
 }
 
 /* -----------------FOOTER----------------- */
 .f-top{
     height: 230px;
     background-color: #3A546D;
+    padding-top: 60px;
 }
 
 .f-bottom{
-    height: 110px;
+    padding-top: 45px;
+    padding-bottom: 55px;
     background-color: #2C3E50;
+
+}
+
+/* other */
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.house{
+    background-color: #BA4B63;
+}
+
+.cake{
+    background-color: #1EA4B6;
+}
+
+.circus{
+    background-color: #140F0F;
+}
+
+.joystick{
+    background-color: #1C83C1;
+}
+
+.vault{
+    background-color: #0E38B5;
+}
+
+.submarine{
+    background-color: #CCB2A3;
 }

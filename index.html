@@ -8,37 +8,191 @@
         <!-- CDN BOOTSTRAP -->
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css' integrity='sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg==' crossorigin='anonymous'/>
 
-        <link rel="stylesheet" href="assets/css/style.css">        
+        <!-- CDN Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Bootstrap freelancer</title>
     </head>
     <body>
         <!-- HEADER -->
         <header>
-            <div class="container">
+            <div class="container ms-white">
                 <div class="row">
-                    <div class="col-6">Logo</div>
-                    <div class="col-6 d-md-none text-end ">Hambuerger</div>
-                    <div class="col-6 d-none d-md-block text-end ">Menu</div>
-                </div> 
+                    <div class="col-8 align-middle ms-height-90">Logo</div>
+                    <div class="col-4 d-md-none text-end ms-height-90">Hambuerger</div>
+                    <div class="col-4 d-none d-md-block text-end ms-height-90">Menu</div>
+                </div>
             </div>
         </header>
 
         <!-- MAIN -->
         <main>
-            <div class="jumbotron"></div>
+            <!-- JUMBOTRON -->
+            <div class="jumbotron ms-white">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="image"></div>
+                        </div>
+                    </div>
 
-            <div class="portfolio">portfolio</div>
+                    <div class="row">
+                        <div class="col text-center">
+                            <h1>start Bootstrap</h1>
+                        </div>
+                    </div>
 
-            <div class="about">about</div>
+                    <div class="row">
+                        <div class="col text-center">[star]</div>
+                    </div>
 
-            <div class="contact-me">contact-me</div>
+                    <div class="row text-center">
+                        <div class="col-4 offset-4">
+                            <div class="row">
+                                <div class="col">
+                                    <span>Graphic Artist</span>
+                                </div>
+
+                                <div class="col">
+                                    <span>Web Designer</span>
+                                </div>
+
+                                <div class="col">
+                                    <span>Illustrator</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PORTFOLIO -->
+            <section class="portfolio">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col">[star]</div>
+                </div>
+
+                <div class="ms-container-60">
+                    <div class="row">
+                        <div class="col-4 card house">house</div>
+                        <div class="col-4 card cake">cake</div>
+                        <div class="col-4 card circus">circus</div>
+                        <div class="col-4 card joystick">joystick</div>
+                        <div class="col-4 card vault">vault</div>
+                        <div class="col-4 card submarine">submarine</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about ms-white">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>About</h2>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col">[star]</div>
+                </div>
+
+                <div class="ms-container-50">
+                    <div class="row">
+                        <div class="col-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur non voluptates alias hic ipsum provident eveniet iusto debitis aperiam similique. Nemo autem culpa corrupti distinctio doloremque hic nobis deleniti minus.</p>
+                        </div>
+
+                        <div class="col-6">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim excepturi impedit dolores omnis exercitationem illo nemo fugiat asperiores, deleniti perferendis laborum ad natus a, ipsa consectetur amet. Ea, nam ratione?</p>
+                        </div>
+
+                        <div class="row text-center">
+                            <div class="col">[btn]</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT ME -->
+            <section class="contact-me">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>Contact me</h2>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col">[star]</div>
+                </div>
+
+                <div class="ms-container-50">
+                    <div class="row ">
+                        <div class="col ms-form">Name</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col ms-form">Email Address</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col ms-form">Phone Number</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col ms-form-msg">Message</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">[btn]</div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- FOOTER -->
         <footer>
-            <div class="f-top">f-top</div>
+            <section class="f-top ms-white">
+                <div class="ms-container-60">
+                    <div class="row text-center">
+                        <div class="col">
+                            <h3>Location</h3>
+                            <p>2215 John Daniel Crive Clark, MO 54243</p>
+                        </div>
+                        
+                        <div class="col">
+                            <h3>Around the web</h3>
+                            <div class="row justify-content-center">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="col">
+                            <h3>About freelancer</h3>
+                            <p>Freelance is a free to use, open source Bootsrap theme created by Start Bootstrap.</p>
+                        </div>
+                    </div>
 
-            <div class="f-bottom">f-bottom</div>
+                </div>
+            </section>
+
+            <section class="f-bottom ms-white">
+                <div class="row text-center">
+                    <div class="col">
+                        <p>Copyright Your Website 2019</p>
+                    </div>
+                </div>
+            </section>
         </footer>
     </body>
 </html>
