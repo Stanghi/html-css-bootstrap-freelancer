@@ -7,9 +7,44 @@
 }
 
 /* ---------------COMPONENTS--------------- */
+[class^="col"]{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    height: 90px;
+}
+
+.jumbotron{
+    height: 590px;
+    background-color: #1ABC9C;
+}
 
 /* -----------------HEADER----------------- */
+header{
+    background-color: #2C3E50;
+    height: 90px;
+}
 
 /* ------------------MAIN------------------ */
+.portfolio{
+    height: 855px;
+}
+
+.about{
+    height: 490px;
+    background-color: #1ABC9C;
+}
+
+.contact-me{
+    height: 685px;
+}
 
 /* -----------------FOOTER----------------- */
+.f-top{
+    height: 230px;
+    background-color: #3A546D;
+}
+
+.f-bottom{
+    height: 110px;
+    background-color: #2C3E50;
+}
