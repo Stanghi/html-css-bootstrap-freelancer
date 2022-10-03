@@ -32,7 +32,7 @@
     line-height: 55px;
 }
 
-.card{
+.ms-card{
     height: 260px;
     border-radius: 15px;
     color: gold;
@@ -139,4 +139,8 @@ h3{
 
 .submarine{
     background-color: #CCB2A3;
+}
+
+.ms-btn{
+    background-color: #1ABC9C;
 }
