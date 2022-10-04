@@ -13,10 +13,6 @@ body{
     border: 1px solid black;
 }
 
-.uppercase{
-    text-transform: uppercase;
-}
-
 .fa-star{
     font-size: 2rem;
 }
