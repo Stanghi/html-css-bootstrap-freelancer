@@ -46,6 +46,12 @@ body{
     margin: 5px;
 }
 
+.form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+
 /* -----------------HEADER----------------- */
 /* no content */
 
