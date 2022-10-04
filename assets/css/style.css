@@ -75,33 +75,23 @@ body{
 }
 
 /* -----------------FOOTER----------------- */
-/* no content */
+footer .circle:hover{
+    cursor: pointer;
+}
 
 /* ---------------PALETTE--------------- */
-nav{
-    background-color: #2C3E50;
-}
-
-.jumbotron, .about{
-    background-color: #1ABC9C;
-}
-
 .f-top{
     background-color: #3A546D;
 }
 
-.f-bottom{
-    background-color: #2C3E50;
+.jumbotron, .about, .ms-btn{
+    background-color: #1ABC9C;
 }
 
-.ms-btn{
-    background-color: #1ABC9C;
+nav, .f-bottom, .dark{
+    background-color: #2C3E50;
 }
 
 .light{
     background-color: #FFFFFF;
-}
-
-.dark{
-    background-color: #2C3E50;
 }
