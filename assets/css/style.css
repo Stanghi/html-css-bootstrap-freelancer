@@ -57,11 +57,12 @@ body{
 
 /* ------------------MAIN------------------ */
 .jumbotron .image{
-    height: 225px;
     width: 225px;
     margin: 0 auto;
-    border-radius: 50%;
-    background-color: #2C3E50;
+}
+
+.jumbotron img{
+    width: 100%;
 }
 
 .ms-form-msg{
