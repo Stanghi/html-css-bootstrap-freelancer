@@ -17,13 +17,30 @@
     <body>
         <!-- HEADER -->
         <header>
-            <div class="container text-white">
-                <div class="row">
-                    <div class="col-8 align-middle ms-height-90">Logo</div>
-                    <div class="col-4 d-md-none text-end ms-height-90">Hambuerger</div>
-                    <div class="col-4 d-none d-md-block text-end ms-height-90">Menu</div>
+            <nav class="navbar pb-3 pt-3 navbar-expand-lg">
+                <div class="container">
+    
+                    <a class="navbar-brand uppercase fs-3 text-white" href="#">Start bootstrap</a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 uppercase ">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+    
                 </div>
-            </div>
+            </nav>
         </header>
 
         <!-- MAIN -->
@@ -64,7 +81,7 @@
             </div>
 
             <!-- PORTFOLIO -->
-            <section class="portfolio pt-5 pb-5">
+            <section class="portfolio pt-5 pb-5" id="portfolio">
                 <div class="row text-center">
                     <div class="col uppercase">
                         <h2>Portfolio</h2>
@@ -92,7 +109,7 @@
             </section>
 
             <!-- ABOUT -->
-            <section class="about pt-5 pb-5 text-white">
+            <section class="about pt-5 pb-5 text-white" id="about">
                 <div class="row text-center">
                     <div class="col uppercase">
                         <h2>About</h2>
@@ -107,7 +124,7 @@
                     </div>
                 </div>
 
-                <div class="container">
+                <div class="ms-container">
                     <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-2 row-cols-lg-2 row-cols-sm-1 row-cols-md-2 row-cols-xs-1">
                         <div class="col">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur non voluptates alias hic ipsum provident eveniet iusto debitis aperiam similique. Nemo autem culpa corrupti distinctio doloremque hic nobis deleniti minus.</p>
@@ -128,7 +145,7 @@
             </section>
 
             <!-- CONTACT ME -->
-            <section class="contact-me pt-5 pb-5">
+            <section class="contact-me pt-5 pb-5" id="contact">
                 <div class="row text-center">
                     <div class="col uppercase">
                         <h2>Contact me</h2>
@@ -143,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="container">
+                <div class="ms-container">
                     <div class="row ">
                         <div class="col ms-form">Name</div>
                     </div>
@@ -171,15 +188,15 @@
 
         <!-- FOOTER -->
         <footer>
-            <section class="f-top pt-5 pb-5 text-white">
+            <section class="f-top text-white">
                 <div class="container">
-                    <div class="row text-center">
-                        <div class="col">
+                    <div class="row row-cols-1 row-cols-md-3 text-center pt-3 pb-3">
+                        <div class="col pt-3 pb-3">
                             <h3>Location</h3>
                             <p>2215 John Daniel Crive Clark, MO 54243</p>
                         </div>
                         
-                        <div class="col">
+                        <div class="col pt-3 pb-3">
                             <h3>Around the web</h3>
                             <div class="row justify-content-center">
                                 <div class="circle"></div>
@@ -190,7 +207,7 @@
                             
                         </div>
                         
-                        <div class="col">
+                        <div class="col pt-3 pb-3">
                             <h3>About freelancer</h3>
                             <p>Freelance is a free to use, open source Bootsrap theme created by Start Bootstrap.</p>
                         </div>
@@ -201,7 +218,7 @@
             <section class="f-bottom pt-4 pb-4 text-white">
                 <div class="row text-center">
                     <div class="col">
-                        <p>Copyright Your Website 2019</p>
+                        <p>Copyright © Your Website 2019</p>
                     </div>
                 </div>
             </section>
