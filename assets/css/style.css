@@ -32,12 +32,6 @@ body{
     border: none;
 }
 
-.ms-form{
-    height: 55px;
-    border-bottom: 2px solid #CCCCCC;
-    line-height: 55px;
-}
-
 .circle{
     width: 55px;
     height: 55px;
@@ -61,16 +55,6 @@ body{
     margin: 0 auto;
 }
 
-.jumbotron img{
-    width: 100%;
-}
-
-.ms-form-msg{
-    height: 195px;
-    line-height: 55px;
-    border-bottom: 2px solid #CCCCCC;
-}
-
 /* -----------------FOOTER----------------- */
 /* no content */
 
@@ -89,30 +73,6 @@ nav{
 
 .f-bottom{
     background-color: #2C3E50;
-}
-
-.house{
-    background-color: #BA4B63;
-}
-
-.cake{
-    background-color: #1EA4B6;
-}
-
-.circus{
-    background-color: #140F0F;
-}
-
-.joystick{
-    background-color: #1C83C1;
-}
-
-.vault{
-    background-color: #0E38B5;
-}
-
-.submarine{
-    background-color: #CCB2A3;
 }
 
 .ms-btn{
